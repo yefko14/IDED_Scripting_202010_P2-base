@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
 
     #endregion Bullet
 
+
     #region BoundsReferences
 
     private float referencePointComponent;

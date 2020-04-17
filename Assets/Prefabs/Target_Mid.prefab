@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2627135051368097647}
   - component: {fileID: 2627135051368097644}
   - component: {fileID: 2627135051368097645}
-  - component: {fileID: 2627135051368097642}
   - component: {fileID: 54445170667756804}
+  - component: {fileID: 8877099474361472695}
   m_Layer: 10
   m_Name: Target_Mid
   m_TagString: Untagged
@@ -93,20 +93,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2627135051368097642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2627135051368097643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6ffb1a118247af4095b52ed68ce2ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHP: 2
-  scoreAdd: 15
 --- !u!54 &54445170667756804
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -123,3 +109,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
+--- !u!114 &8877099474361472695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627135051368097643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f90d501e07606c41a25cf2709892c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHP: 2
+  scoreAdd: 15
+  lifeTime: 8
+  player: {fileID: 0}
